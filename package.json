@@ -1,0 +1,13 @@
+{
+  "name": "chat",
+  "packageManager": "yarn@4.5.2",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "yarn workspace web run dev",
+    "dev:backend": "yarn workspace backend run start"
+  }
+}
