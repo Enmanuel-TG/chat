@@ -8,6 +8,12 @@
   ],
   "scripts": {
     "dev:web": "yarn workspace web run dev",
-    "dev:backend": "yarn workspace backend run start"
+    "dev:api": "yarn workspace api run dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }
