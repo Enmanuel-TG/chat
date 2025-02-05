@@ -15,7 +15,11 @@
     "noImplicitThis": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@package/*": ["../../packages/*"]
+    }
   },
   "exclude": ["node_modules"]
 }
