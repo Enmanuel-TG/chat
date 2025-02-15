@@ -1,8 +1,8 @@
+import "dotenv/config.js";
 import express, { Request, Response } from "express";
-import { PORT } from "../utilities/consts,utilities";
+import { PORT } from "../utilities/consts.utility";
 import cors from "cors";
 import { router as authRouter } from "./auth/auth.router";
-
 
 const app = express();
 
